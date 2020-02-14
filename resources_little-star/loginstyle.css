@@ -1,0 +1,98 @@
+
+h1{
+    color: deepskyblue;
+    background-color: lemonchiffon;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/babyfood.jpg);
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+
+}
+input[type=text], input[type=password] {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid white;
+  box-sizing: border-box;
+  background: transparent;
+}
+
+button {
+  background-color: lightskyblue;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;  
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+form {
+    background: rgba(0,0,0,0.3);
+    display: inline-block;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color:white;
+    padding: 48px;
+
+}
+
+div.container {
+  display: block;   
+  text-align: center;    
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  padding: 64px;
+  color: white;
+}
+span.register {
+  float: center;
+  padding-top: 32px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightblue;
+}
+
+li {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: gainsboro;
+}
+header {
+  background-color: lightgoldenrodyellow;
+  padding: 5px;
+}
